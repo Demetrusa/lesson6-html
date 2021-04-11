@@ -1,7 +1,6 @@
 /*header style*/
 .logo {
 	display: inline-block;
-	margin-top: 64px;
 	font-size: 55px;
 	color: #FF7A00;
 	width:100px;
@@ -37,6 +36,26 @@
 	width: 100%;
 	height: 382px;
 }
+.image-wrapper1{ 
+	position: relative;
+
+}
+.banner-text{
+	position: absolute;
+	top: 25%;
+}
+.banner-text p{
+	font-size: 22px;
+	color: #FFFFFF;
+	margin-left: 1000px;
+
+}
+.banner-text h2{
+	font-size: 48px;
+	color: #FFFFFF;
+	margin-left: 1000px;
+}
+
 .first-article {
 	margin-left: 138px;
 	padding-top: 138px;
@@ -99,7 +118,49 @@ body{
 	height: 70px;
 	padding-top: 30px;
 }
-.Readmore-config{
-	margin:0 auto;
+.background-section {
+	width: 100%;
+	height: 266px;
+	margin-top: 210px;
+	background-color: #181C28;
 }
 /*footer*/
+footer{
+	width: 100%;
+	height: 400px;
+	background-color: white;
+}
+.mini-box{
+	width: 200px;
+	height: 33px;
+	margin-left: 200px;
+	padding-top: 85px;
+	display: inline-block;
+}
+h2{
+	font-size: 24px;
+	color: #282828;
+
+}
+
+.nav-li2{
+	padding-top: 15px;
+}
+.mini-box2 {
+	width: 250px;
+	height: 33px;
+	margin-left: 200px;
+	padding-top: 85px;
+	display: inline-block;
+}
+.mini-box3{
+	display: inline-block;
+	margin-left: 250px;
+}
+.image-logos {
+	width: 250px;
+	height: 33px;
+
+	display: inline-block;
+	margin
+}
