@@ -109,14 +109,20 @@ body{
 	margin-left: 200px;
 	margin-top: 50px;
 }
-.nav-readmore2{
-	border: 1px solid #FF7A00;
-	font-size: 16px;
-	background-color: #FF7A00;
-	color: white;
+.nav-button{
+	border: 3px solid #FF7A00;
 	width: 190px;
 	height: 70px;
-	padding-top: 30px;
+	color: #FF7A00;
+	margin: 0 auto;
+	background-color: #FF7A00;
+	margin-top: 100px;
+}
+.nav-button p{
+	font-size: 16px;
+	color: white;
+	padding-top: 25px;
+    padding-left: 43px;
 }
 .background-section {
 	width: 100%;
@@ -140,8 +146,14 @@ footer{
 h2{
 	font-size: 24px;
 	color: #282828;
-
 }
+h4::after {
+	content: ' \2015';
+	width: 47px;
+	height: 4px;
+	
+}
+
 
 .nav-li2{
 	padding-top: 15px;
