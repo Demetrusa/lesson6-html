@@ -44,11 +44,11 @@
 	height: 31px;
 	font-size: 22px;
 	color: #FF7A00;
-	margin-left: 138px;
+	margin-left: 200px;
 	padding-top: 138px;
 	width: 138px;
 	height: 31px;
-	margin-bottom: 50px;
+	margin-bottom: 100px;
 }
 .nav-a {
 	color: #181C28;
@@ -88,4 +88,18 @@ body{
 	display: inline-block;
 	height: 510px;
 	margin-left: 200px;
+	margin-top: 50px;
 }
+.nav-readmore2{
+	border: 1px solid #FF7A00;
+	font-size: 16px;
+	background-color: #FF7A00;
+	color: white;
+	width: 190px;
+	height: 70px;
+	padding-top: 30px;
+}
+.Readmore-config{
+	margin:0 auto;
+}
+/*footer*/
