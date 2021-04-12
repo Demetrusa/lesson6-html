@@ -6,6 +6,7 @@
 	width:100px;
 	height: 74px;
 	margin-right: 50px;
+	/*position: fixed;*/
 
 }
 
@@ -24,9 +25,11 @@
     width: 100%;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 1;
+    z-index: 100;
 }
 .navigation{
 	display: inline-block;
+	font-family: 'Poppins';
 }
 .nav-li{
 	display: inline-block;
@@ -47,13 +50,14 @@
 .banner-text p{
 	font-size: 22px;
 	color: #FFFFFF;
-	margin-left: 1000px;
+	margin-left: 800px;
+	font-family: 'Poppins';
 
 }
 .banner-text h2{
 	font-size: 48px;
 	color: #FFFFFF;
-	margin-left: 1000px;
+	margin-left: 800px;
 }
 
 .first-article {
@@ -68,6 +72,7 @@
 	width: 138px;
 	height: 31px;
 	margin-bottom: 100px;
+	font-family: 'Poppins';
 }
 .nav-a {
 	color: #181C28;
@@ -97,10 +102,12 @@ body{
 	opacity: 1
 	font: normal normal normal 16px/26px;
 	text-align: left;
+	font-family: 'Poppins';
 }
 .nav-readmore{
 	font-size: 14px;
 	color: #FF7A00;
+	font-family: 'Poppins';
 
 }
 .second-contaier{
@@ -135,6 +142,7 @@ footer{
 	width: 100%;
 	height: 400px;
 	background-color: white;
+	font-family: 'Poppins';
 }
 .mini-box{
 	width: 200px;
@@ -142,16 +150,18 @@ footer{
 	margin-left: 200px;
 	padding-top: 85px;
 	display: inline-block;
+	color: #7B7B7B;
 }
 h2{
 	font-size: 24px;
 	color: #282828;
+	font-family: Playfair Display;
 }
 h4::after {
 	content: ' \2015';
 	width: 47px;
 	height: 4px;
-	
+
 }
 
 
@@ -164,15 +174,16 @@ h4::after {
 	margin-left: 200px;
 	padding-top: 85px;
 	display: inline-block;
+	color: #7B7B7B;
 }
 .mini-box3{
 	display: inline-block;
 	margin-left: 250px;
+	color: #7B7B7B;
 }
 .image-logos {
 	width: 250px;
 	height: 33px;
 
 	display: inline-block;
-	margin
 }
